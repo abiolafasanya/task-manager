@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useTask from "../../hooks/useTask";
-import { FaCheckCircle, FaTrash } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 import {MdVerified, MdPending} from 'react-icons/md'
 import { Task as TaskType } from "../../hooks/context";
 import { formatDate } from "../../utils/formatter";
