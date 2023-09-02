@@ -227,7 +227,22 @@ main {
   font-size: 14px;
   color: #6b7280;
 }
-
+.alert-error {
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #fef2f2;
+  color: var(--red);
+  font-size: 14px;
+}
+.alert-success {
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #f0fdf4;
+  color: var(--green);
+  font-size: 14px;
+}
 @media (min-width: 298px) and (max-width: 760px) {
   main {
     padding: 3rem 1rem;
